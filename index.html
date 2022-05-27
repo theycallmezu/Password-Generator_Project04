@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       
+            <section id="wrapper">
+                <div id ="container">
+
+
+                    <div id="informational-section">
+                        <h1>Generate a<br><span>random password</span></h1>
+                        <h2>Never use an insecure password again.</h2>
+                    </div>
+                    
+
+                    <div class="input-container">
+                        <div id="character-wrapper">
+                            <p id="error-message">How many character would you like?</p>
+                            <input id="userInput" value="0" name="fName" type="text" class="form-control"/>
+                            
+                        </div>
+                        <div id="strength-wrapper">
+                            <p>Which strength level<br>do you need?</p>
+                            <input type="radio" name="strength" id="weak" value="weak">Weak (letters only)<br> 
+                            <input type="radio" name="strength" id="medium" value="medium">Medium (letters and numbers)<br> 
+                            <input type="radio" name="strength" id="strong" value="strong">Strong (lettes, numbers, & symnbols)<br> 
+                            <h3 id="disp" style= "color:green"> </h3>
+                            <h4 id="error" style= "color:red"> </h4>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button id="btn" class="button" onclick="getPasswords()">
+                            <span class="lightning-bolt-icon"></span>
+                            <span class="button-text">Generate passwords</span>
+                        </button>
+                    </div>
+
+                    <div class="spacer"></div>
+
+
+                    <div id ="password-style" class="password-container">
+                        <div id="output-01">xc8w4I1rmQhk0YX</div>
+                        <div id="output-02">c8z8COI41fuYNd3</div>
+                        <div id="output-03">NXY8XlbUtDsliqj</div>  
+                        <div id="output-04">ImN1g2SSnHISuC8</div> 
+                    </div>
+                    
+
+                </div>
+
+
+            </section>
+  
+
+    </body>
+    <script src="index.js"></script>
+</html>
+
+
+<!--
+Notes from babe:
+
+hi babe how are you doing today c:
+pootman
+you are but a man
+wise and sure 
+but you poot a lot
+please stop
+-->
