@@ -2,7 +2,7 @@
 
 # Project 04: Password Generator Program
 
-> This project is a nice combination of having an aesthetic interface and some basic algorithmic thihking.
+> This project is a nice combination of having an aesthetic interface and some basic algorithmic thinking.
 
 ## Requirements [Completed]
 1. Array to hold all possible chars
